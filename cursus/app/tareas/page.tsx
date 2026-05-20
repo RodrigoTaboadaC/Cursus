@@ -2,8 +2,7 @@ import Sidebar from "@/components/Sidebar"
 
 const tareas = [
   { nombre: "Laboratorio de redes", curso: "Redes y Telecomunicaciones", fecha: "Mañana", estado: "Pendiente", urgencia: "bg-red-100 text-red-600" },
-  { nombre: "Práctica calificada 2", curso: "Estructuras de Datos Avanzada",  fecha: "Mañana", estado: "Pendiente", urgencia: "bg-red-100 text-red-600" },
-  { nombre: "Desarrollo de casos 6", curso: "Agentes Inteligentes",  fecha: "3 días", estado: "En progreso", urgencia: "bg-amber-100 text-amber-600" },
+  { nombre: "Desarrollo de casos 6", curso: "Agentes Inteligentes",  fecha: "3 días", estado: "Pendiente", urgencia: "bg-amber-100 text-amber-600" },
   { nombre: "Exposición grupal", curso: "Oportunidades de Negocio",  fecha: "5 días", estado: "Pendiente", urgencia: "bg-amber-100 text-amber-600" },
   { nombre: "Proyecto final", curso: "Gerenciamiento de Datos II", fecha: "10 días", estado: "Pendiente", urgencia: "bg-green-100 text-green-700" },
   { nombre: "Proyecto final", curso: "Agentes Inteligentes", fecha: "11 días", estado: "Pendiente", urgencia: "bg-green-100 text-green-700" },

@@ -23,11 +23,6 @@ export default function Dashboard() {
             <p className="text-xs text-gray-400 mt-1">2 vencen mañana</p>
           </div>
           <div className="bg-gray-100 rounded-xl p-4">
-            <p className="text-xs text-gray-500 mb-1">Promedio ponderado (hasta ahora)</p>
-            <p className="text-2xl font-semibold text-green-600">15.4</p>
-            <p className="text-xs text-gray-400 mt-1">+0.3 vs semestre pasado</p>
-          </div>
-          <div className="bg-gray-100 rounded-xl p-4">
             <p className="text-xs text-gray-500 mb-1">Grupos de trabajo activos</p>
             <p className="text-2xl font-semibold text-gray-900">2</p>
             <p className="text-xs text-gray-400 mt-1">1 compañero retrasado</p>
@@ -47,7 +42,6 @@ export default function Dashboard() {
             </div>
             {[
               { nombre: "Laboratorio de redes", curso: "Redes y Telecomunicaciones", urgencia: "Mañana", color: "bg-red-100 text-red-600" },
-              { nombre: "Práctica calificada 2", curso: "Estructuras de Datos Avanzada", urgencia: "Mañana", color: "bg-red-100 text-red-600" },
               { nombre: "Desarrollo de casos 6", curso: "Agentes Inteligentes", urgencia: "3 días", color: "bg-amber-100 text-amber-600" },
               { nombre: "Exposición grupal", curso: "Oportunidades de Negocio", urgencia: "5 días", color: "bg-amber-100 text-amber-600" },
               { nombre: "Proyecto final", curso: "Gerenciamiento de Datos II", urgencia: "11 días", color: "bg-green-100 text-green-700" },
@@ -69,7 +63,8 @@ export default function Dashboard() {
               <p className="text-xs text-blue-500 cursor-pointer">Ver grupo</p>
             </div>
             {[
-              { iniciales: "RT", nombre: "Rodrigo (tú) · Diagrama ER", estado: "Vence hoy 8pm", progreso: 80, color: "bg-green-100 text-green-700", barra: "bg-green-500" },
+              
+              { iniciales: "RT", nombre: "Rodrigo (tú) · Diagrama ER", estado: "Casi terminado", progreso: 80, color: "bg-green-100 text-green-700", barra: "bg-green-500" },
               { iniciales: "LR", nombre: "Manuel Perez · Tablas en SQL", estado: "Entregado", progreso: 100, color: "bg-green-100 text-green-700", barra: "bg-green-500" },
               { iniciales: "MG", nombre: "Gabriel Marengo · Normalización de tablas", estado: "Sin empezar", progreso: 5, color: "bg-red-100 text-red-600", barra: "bg-red-400" },
               { iniciales: "PV", nombre: "Flavio Lecca · Documentación final", estado: "En progreso", progreso: 45, color: "bg-amber-100 text-amber-600", barra: "bg-amber-400" },

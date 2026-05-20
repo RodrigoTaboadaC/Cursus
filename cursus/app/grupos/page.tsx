@@ -3,7 +3,7 @@ import Sidebar from "@/components/Sidebar"
 const grupos = [
   {
     nombre: "Grupo 4",
-    curso: "Base de Datos Avanzada",
+    curso: "Gerenciamiento de Datos",
     entrega: "10 dias",
     miembros: [
       { iniciales: "RT", nombre: "Rodrigo (tú)", tarea: "Diagrama ER", progreso: 80, color: "bg-green-100 text-green-700", barra: "bg-green-500" },
